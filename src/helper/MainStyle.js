@@ -1,0 +1,116 @@
+import {StyleSheet} from 'react-native';
+
+export const mainStyle = StyleSheet.create({
+  CustomText: {
+    color: '#000',
+  },
+  error: {color: 'red', fontSize: 16, textAlign: 'center', marginTop: 10},
+  GoldMainCard: {
+    width: '100%',
+    padding: 10,
+    backgroundColor: 'red',
+    marginTop: 15,
+    marginBottom: 5,
+    borderRadius: 30,
+    borderTopLeftRadius: 0,
+  },
+  inputMainDiv: {
+    width: '100%',
+    paddingVertical: 10,
+    zIndex: 10,
+  },
+  inputDiv: {
+    width: '100%',
+    paddingHorizontal: 20,
+    justifyContent: 'space-between',
+    alignItems: 'flex-end',
+    borderBottomWidth: 1,
+  },
+  inputLabel: {
+    fontSize: 21,
+    color: '#000',
+    marginBottom: -10,
+    textTransform: 'capitalize',
+  },
+  inputSubLabel: {
+    marginVertical: 5,
+    color: '#000',
+    marginTop: 7,
+  },
+  input: {
+    color: '#000',
+    width: '90%',
+    height: '100%',
+    alignSelf: 'center',
+  },
+  iconButton: {
+    width: '15%',
+    padding: 10,
+  },
+  CustomButton: {
+    width: '100%',
+    backgroundColor: 'green',
+    alignSelf: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 12,
+    zIndex: 10,
+    marginVertical: 10,
+  },
+  CustomButtonText: {
+    color: '#fff',
+    fontSize: 25,
+  },
+  CustomButtonArrow: {
+    width: '100%',
+    flexDirection: 'row-reverse',
+    alignSelf: 'center',
+    alignItems: 'center',
+    borderRadius: 12,
+    zIndex: 10,
+    marginVertical: 12,
+  },
+  ArrowView: {
+    width: 55,
+    height: 55,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 999,
+  },
+  CustomButtonText2: {
+    color: '#fff',
+    fontSize: 23,
+    marginHorizontal: 10,
+  },
+  dropDownbtn: {
+    width: '100%',
+    borderBottomWidth: 1,
+    backgroundColor: 'red',
+    marginVertical: 5,
+  },
+  card: {
+    width: '100%',
+    height: 130,
+    backgroundColor: 'red',
+    borderTopLeftRadius: 0,
+    borderRadius: 10,
+    marginBottom: 20,
+    flexDirection: 'row',
+  },
+  cardTop: {
+    height: '100%',
+    width: '40%',
+  },
+  image: {
+    width: '100%',
+    height: '100%',
+    resizeMode: 'stretch',
+    borderTopRightRadius: 10,
+  },
+  cardBot: {
+    height: '100%',
+    width: '60%',
+    padding: 10,
+    justifyContent: 'space-between',
+  },
+});

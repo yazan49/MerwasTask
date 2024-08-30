@@ -26,7 +26,6 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
@@ -48,5 +47,19 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string></string>
+		<string>Feather.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>AntDesign.ttf</string>
+		<string>Maitree-ExtraLight.ttf</string>
+		<string>Maitree-Light.ttf</string>
+		<string></string>
+		<string>Maitree-Medium.ttf</string>
+		<string>Maitree-Regular.ttf</string>
+		<string>Maitree-SemiBold.ttf</string>
+	</array>
 </dict>
 </plist>
